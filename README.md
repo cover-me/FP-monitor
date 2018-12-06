@@ -1,7 +1,9 @@
 # FP-monitor
 LabVIEW front panel monitor. I use it to get emails and beeps by monitoring Leiden's program.
 
-## block diagram of main.vi
+## How it works
+![alt tag](documentation/images/snapshot1.png)
+## Block diagram of main.vi
 ![alt tag](documentation/images/mainc.png)
 ![alt tag](documentation/images/mainp.png)
 ![alt tag](documentation/images/maind.png)
