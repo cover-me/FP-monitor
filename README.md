@@ -20,6 +20,9 @@ PATH=VI,127.0.0.1:3375,FP.vi/PNL_CTR,3/TAB_PAGE,0/PAGE_CTR,10/TAB_PAGE,1/PAGE_CT
 VALUE=CLUSTER,2
 ```
 
+### config_email.ini and config_rules.ini
+Just open the files. It's easy to understand.
+
 ## Block diagram of main.vi
 ![alt tag](documentation/images/mainc.png)
 ![alt tag](documentation/images/mainp.png)
