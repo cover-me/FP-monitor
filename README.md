@@ -11,7 +11,7 @@ Each control on the front panel of a LabWIEW program can be accessed by a 'Path'
 [PT OFF(0)-ON(1)]
 PATH=VI,127.0.0.1:3375,FP.vi/PNL_CTR,3/TAB_PAGE,0/PAGE_CTR,10/TAB_PAGE,1/PAGE_CTR,0
 ```
-Here we name the reading as `PT OFF(0)-ON(1)`. `VI,127.0.0.1:3375,FP.vi` refers to the FP.vi of the Leiden program. Each LabVIEW excutable has a tcp server by default to talk with other programs. `PNL_CTR,3` gets a control from the Panel with index 3. It is a tab control in our case. `TAB_PAGE,0` returns the 0th control inside a tab control...
+Here we name the reading as `PT OFF(0)-ON(1)`. `VI,127.0.0.1:3375,FP.vi` refers to the FP.vi of the Leiden program. Each LabVIEW excutable has a tcp server by default to talk with other programs. `PNL_CTR,3` gets a control from the Panel with index 3. It is a tab control in our case. `TAB_PAGE,0` returns the 0th page of a tab control...
 
 `T water out (C)` is a bit different. The reading is inside a cluster control. We can not get the reading even after we get a reference to the cluster. To sovle this, we can add `VALUE=CLUSTER,2` as shown bellow, which means the value indexed by 2. 
 ```
