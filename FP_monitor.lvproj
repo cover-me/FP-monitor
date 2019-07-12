@@ -68,7 +68,9 @@
 				<Item Name="Get Section Names.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Get Section Names.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
+			<Item Name="mail_msg.vi" Type="VI" URL="../VIs/mail_msg.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="FP_monitor" Type="EXE">
@@ -76,7 +78,7 @@
 				<Property Name="App_applicationName" Type="Str">FP_monitor.exe</Property>
 				<Property Name="App_autoIncrement" Type="Bool">true</Property>
 				<Property Name="App_fileDescription" Type="Str">FP_monitor</Property>
-				<Property Name="App_fileVersion.build" Type="Int">8</Property>
+				<Property Name="App_fileVersion.build" Type="Int">15</Property>
 				<Property Name="App_fileVersion.major" Type="Int">2</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{DD596ABA-5DCA-4BC7-8563-7A4D74736148}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4C4ED641-6E90-424B-80EC-6A2E6E6C2382}</Property>
