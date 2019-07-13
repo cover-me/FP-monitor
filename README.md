@@ -2,7 +2,7 @@
 LabVIEW front panel monitor. I use it to get emails/Slack messages and beeps by monitoring Leiden fridge's program. It can be used to monitor and get alerts from any LabVIEW executables or VIs.
 
 ## How it works
-The information below may be a little out of date as the program is keep updating. But it is still fine to tell the story.
+The information below may be a little out of date as the program is keep updating. But the story doesn't change too much.
 
 ### Snapshots
 ![alt tag](documentation/images/snapshot1.png)
