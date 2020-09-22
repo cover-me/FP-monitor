@@ -1,12 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="8608001">
+<Project Type="Project" LVVersion="17008000">
 	<Item Name="我的电脑" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">我的电脑/VI服务器</Property>
-		<Property Name="server.tcp.serviceName.default" Type="Str">我的电脑/VI服务器</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">????/VI???</Property>
+		<Property Name="server.tcp.serviceName.default" Type="Str">????/VI???</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
@@ -31,108 +32,97 @@
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
-				<Item Name="Open Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Open Config Data.vi"/>
-				<Item Name="Config Data Open Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Open Reference.vi"/>
-				<Item Name="Config Data Registry.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Registry.vi"/>
-				<Item Name="Config Data RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data RefNum"/>
-				<Item Name="Config Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data.ctl"/>
-				<Item Name="Config Data Section.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Section.ctl"/>
-				<Item Name="Config Data Registry Functions.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Registry Functions.ctl"/>
-				<Item Name="Config Data Set File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Set File Path.vi"/>
-				<Item Name="Config Data Modify.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Modify.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Info From Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Info From Config Data.vi"/>
-				<Item Name="Config Data Modify Functions.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Modify Functions.ctl"/>
-				<Item Name="Config Data Read From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Read From File.vi"/>
-				<Item Name="Config Data Get File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Get File Path.vi"/>
-				<Item Name="String to Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/String to Config Data.vi"/>
-				<Item Name="Invalid Config Data Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Invalid Config Data Reference.vi"/>
-				<Item Name="Config Data Close Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Close Reference.vi"/>
-				<Item Name="Read Key (String).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (String).vi"/>
-				<Item Name="Config Data Get Key Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Get Key Value.vi"/>
-				<Item Name="Parse Stored String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Parse Stored String.vi"/>
-				<Item Name="Get Next Character.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Get Next Character.vi"/>
-				<Item Name="Read Key (I32).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (I32).vi"/>
-				<Item Name="Close Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Close Config Data.vi"/>
-				<Item Name="Config Data Write To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data Write To File.vi"/>
-				<Item Name="Config Data to String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Config Data to String.vi"/>
-				<Item Name="Add Quotes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Add Quotes.vi"/>
-				<Item Name="Read Key.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key.vi"/>
-				<Item Name="Read Key (Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (Boolean).vi"/>
-				<Item Name="Read Key (Double).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (Double).vi"/>
-				<Item Name="Read Key (Path).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (Path).vi"/>
-				<Item Name="Remove Quotes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Remove Quotes.vi"/>
-				<Item Name="Common Path to Specific Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Common Path to Specific Path.vi"/>
-				<Item Name="Read Key (U32).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Read Key (U32).vi"/>
-				<Item Name="Get Section Names.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/Get Section Names.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="mail_msg.vi" Type="VI" URL="../VIs/mail_msg.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="FP_monitor" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{5ABBFDAC-B358-4632-AB30-4CC230AEFA50}</Property>
-				<Property Name="App_applicationName" Type="Str">FP_monitor.exe</Property>
-				<Property Name="App_autoIncrement" Type="Bool">true</Property>
-				<Property Name="App_fileDescription" Type="Str">FP_monitor</Property>
-				<Property Name="App_fileVersion.build" Type="Int">15</Property>
-				<Property Name="App_fileVersion.major" Type="Int">2</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{DD596ABA-5DCA-4BC7-8563-7A4D74736148}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4C4ED641-6E90-424B-80EC-6A2E6E6C2382}</Property>
-				<Property Name="App_internalName" Type="Str">FP_monitor</Property>
-				<Property Name="App_legalCopyright" Type="Str">版权 2018 </Property>
-				<Property Name="App_productName" Type="Str">FP_monitor</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{68B65B3C-3237-4272-9600-07FE22B88D54}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">FP_monitor</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FP_monitor</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B0C1B391-2428-4E71-9BE0-C8E01F64654E}</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">FP_monitor.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FP_monitor/internal.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FP_monitor/FP_monitor.exe</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].destName" Type="Str">????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FP_monitor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{04ECD6D6-61A8-44C8-8144-ECB89D54F212}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{477E58C9-C613-497F-86D7-6A5213CEC7B3}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{F126FACE-6E91-4FF9-8D6B-8642FA90346D}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{0E79EB6D-4506-4CA5-BAB6-CB8BE0D16830}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{41F128C9-7936-4AD1-8DA8-1F28D016B5AC}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{312C6799-5B2F-42AD-A998-6E1D5907407E}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{7245B884-5282-411F-B1BB-8B59987F3699}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{63705CB2-D415-4411-84F1-AD2282B02130}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{D23CAED0-189A-492F-A2D2-2F9A8FE24C0C}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{735217A7-C4AD-4371-B492-D1D6D8653FE8}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{C888A543-29E1-4DA8-97C9-4BCD35DD7CB5}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{5BCF67CC-C2BC-438A-8AB9-6EEEA2FFB145}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{A55876CA-6A3B-4BF4-A32A-5517D307454D}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{3096F0B8-8EC3-40FC-B7F7-4818BC642575}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{1A343393-673A-40C5-90B6-A7BA03007099}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{CE2B088A-BCA7-45C5-948A-5999C19C51A4}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{53991C3A-BDB7-4F36-A1C7-70FE1D111063}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{F3C58DC2-E7C1-4B4C-B2BC-4793B899C60D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{CD1B376F-6B72-4C76-A98B-C6B6EEB3C439}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{C3FE6162-5E96-4A49-8769-D22C45240730}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{72F405CB-C97A-4389-A329-F791FE74794D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{CBF6309F-489A-4FF1-BEFB-3935AE2E76E4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{4EC356CA-1193-4101-8CCA-1FDF6EB8772E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{FF71B5E3-08C0-4607-81BE-D2FC8AF0149E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{5448B7EC-5A01-470E-9D37-0487F458E937}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{02058085-84AD-4344-ABC1-2683C52EE3AD}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{397D8139-0FA6-4FF6-896F-8CB7E8D6D54F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{C0C8F4FC-CC58-47F0-AB89-AD0BCB567B4C}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{FCC9E9E5-7A56-4B7C-A739-06CEA93DD57B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{7167DD86-14A3-412B-B704-631D518D1A27}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{8924D564-A3AB-4AFD-9785-16E55BE6128F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{D8732A8B-2705-4E58-8791-F1B8BBA814FB}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{D01CD69B-0E4C-4BD0-80C9-6D3E7836231F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{89CF6448-06BA-4923-9423-8FBB040AA143}</Property>
 				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
 				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
 				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{B1283DD8-F934-4759-BF4A-8600DEB593E3}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{F6B845E4-41A6-4353-AD55-AE63E9BC05FC}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{35E8EBC2-A149-48BE-B1C5-B2CF65017AFF}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{559847D0-2961-4EF8-A540-EF110C3EF3F4}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{30D067A8-02CF-4530-9DD9-7F2396A8AB0F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{D7C2703E-4EB8-45BE-883D-9B6F704250DD}</Property>
-				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">6</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{7FCBABF7-562F-48FE-86E5-EED7A825031F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{39307F41-A23B-4F5F-BA3D-ED0E15E2AC49}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{C1120CA8-D118-4630-8C04-22ECA5A91728}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{26ADC184-D4F0-4584-9668-D14427F92553}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{70A2A7D7-AC84-4C52-9AD4-1E6580C984E3}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{02DE8CC4-4093-4427-A159-916D927E32F2}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{DBA52C5D-2F93-4613-A424-A01579131F22}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{48D12894-0C84-460F-BFBF-DF751B26DCE7}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{E5B830A8-8346-48DE-BDC2-FFB36E0634FC}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{BFB4AEFA-0700-41CE-AA97-8A495A5A14E4}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{72AD871A-16A4-4D19-B148-067DADB87CE0}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{BCD29373-7A9D-4027-9380-0C5D9623B25D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{2158F220-6D29-4BDB-B207-122F8634D871}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{4B02B2C3-0EE7-498A-A4E2-E666C8BA475E}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
 				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">FPMonitor</Property>
 				<Property Name="Exe_actXServerName" Type="Str">FPMonitor</Property>
 				<Property Name="Exe_actXServerNameGUID" Type="Str">{D706E487-739D-42B0-828B-17479C0FDD50}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{58F8C6BD-8DA8-4487-B9FE-45E98DB8E083}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{489F8BC4-C78E-4CF0-9197-E79AF67564B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FP_monitor</Property>
+				<Property Name="TgtF_internalName" Type="Str">FP_monitor</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">?? 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">FP_monitor</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5ABBFDAC-B358-4632-AB30-4CC230AEFA50}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FP_monitor.exe</Property>
 			</Item>
 		</Item>
 	</Item>
